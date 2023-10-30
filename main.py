@@ -5,7 +5,7 @@ import openai
 
 os.environ['OPENAI'] = 'YOUR_API_KEY'
 openai.api_key = os.getenv("OPENAI")
-TOKEN = YOUR_TOKEN"
+TOKEN = "YOUR_TOKEN"
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 SYSTEM_BEHAVIOUR, QUESTION, FOLLOWUP, ENDCONVO = range(4)
 messages = []
