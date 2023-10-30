@@ -3,9 +3,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 import os
 import openai
 
-os.environ['OPENAI'] = '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'
+os.environ['OPENAI'] = 'YOUR_API_KEY'
 openai.api_key = os.getenv("OPENAI")
-TOKEN = "6306671775:AAHnDcJhaPanwumkoFtE_nVYYA3CaP8rrlY"
+TOKEN = YOUR_TOKEN"
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 SYSTEM_BEHAVIOUR, QUESTION, FOLLOWUP, ENDCONVO = range(4)
 messages = []
